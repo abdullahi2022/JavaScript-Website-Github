@@ -13,9 +13,7 @@ function main() {
   secondNumber = document.getElementById("textField2").value;
   //Validate by alert or HTML Text in p-tag
   document.getElementById("validityTest1").innerHTML = alert (testNAN (firstNumber) );
-  document.getElementById("validityTest1").innerHTML = testNAN (firstNumber);
-  document.getElementById("validityTest2").innerHTML = alert (testNAN (secondNumber) );
-  document.getElementById("validityTest2").innerHTML = testNAN (secondNumber);
+
   if (stop == true) {
       document.getElementById("answer").innerHTML = "Restart because I said so." //Change to more appropriate message
     } else {

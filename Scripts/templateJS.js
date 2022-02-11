@@ -1,4 +1,4 @@
-console.log("You made it to the template.js!");
+console.log("You made it to the max of Two Numbers.js!");
 
 let stop = false; //Boolean for testNaN() validation function, see end of file
 
