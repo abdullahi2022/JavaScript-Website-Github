@@ -8,6 +8,7 @@ function solution (number1, number2)
   if ( number1 == number2 ) return "  Equal";
   // Ternary Operator Example (single comparison), needs single line IF to limit choices
   return ( number1 > number2 ) ? "Number 2 is larger" : "Number 1 is larger";
+  //Odd Ternary, first option is usually true
   //
   /* Repeats the Ternary Operator
   if ( number1 > number2 )
@@ -22,6 +23,7 @@ function solution (number1, number2)
 //
 function main()
 {
+  stop = false; //for Screen Refresh
   let firstNumber = document.getElementById("textField1").value;
   let secondNumber = document.getElementById("textField2").value;
   //document.getElementById("CanBeAnything").innerHTML = alert ("You are connected");
