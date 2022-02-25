@@ -2,9 +2,11 @@ console.log("You made it to the template.js!");
 
 let stop = false; //Boolean for testNaN() validation function, see end of file
 
-function javascript () { //Where colsole.log tested file goes
-
-}
+function Solution (landscape, Portait, Square) { //Where colsole.log tested file goes
+{
+  if ( width > height) return "  Landscape";
+  if ( width < height) return "  Potrait";
+  if (width == height) return "  Square";
 //Main Function, necessary lines of code
 function main() {
   document.getElementById("validityTest1").innerHTML = alert ("You are connected");
