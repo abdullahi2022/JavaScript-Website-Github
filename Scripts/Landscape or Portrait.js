@@ -7,7 +7,6 @@ function Solution (landscape, Portait, Square) { //Where colsole.log tested file
 //Main Function, necessary lines of code
 function main() {
   document.getElementById("validityTest1").innerHTML = alert ("You are connected");
-
   /*
   let firstNumber, secondNumber; //Variables particular to JavsScript Assignment
   //Get the value of the Heighth Input Field, id="testfield1", assign it to a variable
