@@ -1,38 +1,58 @@
-console.log("You made it to the Landscape or Portrait.js!");
-let stop = false;
-function Solution (landscape, Portait, Square)
-  if ( width > height) return "  Landscape";
-  if ( width < height) return "  Potrait";
-  if (width == height) return "  Square";
-//Main Function, necessary lines of code
-function main() {
-  document.getElementById("validityTest1").innerHTML = alert ("You are connected");
-  /*
-  let firstNumber, secondNumber; //Variables particular to JavsScript Assignment
-  //Get the value of the Heighth Input Field, id="testfield1", assign it to a variable
-  firstNumber = document.getElementById("textField1").value;
-  secondNumber = document.getElementById("textField2").value;
-  //Validate by alert or HTML Text in p-tag
-  document.getElementById("validityTest1").innerHTML = alert (testNAN (firstNumber) );
-  document.getElementById("validityTest1").innerHTML = testNAN (firstNumber);
-  document.getElementById("validityTest2").innerHTML = alert (testNAN (secondNumber) );
-  document.getElementById("validityTest2").innerHTML = testNAN (secondNumber);
-  if (stop == true) {
-      document.getElementById("answer").innerHTML = "Restart because I said so." //Change to more appropriate message
-    } else {
-      //Difference between calling functions with arguements and sending to parameter's, local variables
-      console.log("What did you say?", javaScriptFunction-Solution (firstNumber, secondNumber)); // Change to more appropriate message
-      document.getElementById("answer").innerHTML = "What did you say? " + geometry (firstNumber, secondNumber);
-    }
-    */
-} //End main()
 //
-function testNaN (number) {
-  if ( isNaN (number) ) { //NaN are not values o REAL Number System
-    stop = true;
-    return "Type a Real Number"
-  } else {
-    return "Input Validated"
+//Global Variables
+let stop = false;
+//
+function solution (number1, number2)
+{
+  if ( width == height ) return "  Square";
+  // Ternary Operator Example (single comparison), needs single line IF to limit choices
+  return ( width > height ) ? "Landscape"
+  return (width < height) "Portrait";
+  //Odd Ternary, first option is usually true
+  //
+  /* Repeats the Ternary Operator
+  if ( Width > Height )
+  {
+    return "landscape";
+  } else
+  if   if ( Width < Height )
+    return "Portrait";
   }
-
-}//End testNaN()
+  */
+}//ENd solution
+//
+function main()
+{
+  stop = false; //for Screen Refresh
+  let firstNumber = document.getElementById("textField1").value;
+  let secondNumber = document.getElementById("textField2").value;
+  //document.getElementById("CanBeAnything").innerHTML = alert ("You are connected");
+  document.getElementById("validityTest1").innerHTML = testNaN (firstNumber);
+  document.getElementById("validityTest2").innerHTML = testNaN (secondNumber);
+  if (stop == true)
+  {
+    document.getElementById("answer").innerHTML = "Restart ... because I said so."
+  } else
+  {
+    document.getElementById("answer").innerHTML = "What did you say?  " + solution(firstNumber, secondNumber);
+  }//ENd stop=true
+}//End main()
+//
+function testNaN (number)
+{
+  if ( number=="" ) //Checking for null, submit-button misfire
+  //Variable returns emply string, not null
+  {
+    stop = true;
+    return "Please type a number into the textfield"
+  }//End null check
+  //
+  if ( isNaN(number) ) //Returns a Boolean
+  {
+    stop = true;
+    return "Type a Real Number";
+  } else
+  {
+    return "Good. It is a number."
+  }
+}//End testNaN
