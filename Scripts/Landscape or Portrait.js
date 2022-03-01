@@ -1,6 +1,6 @@
 console.log("You made it to the template.js!");
-let stop = false; //Boolean for testNaN() validation function, see end of file
-function Solution (landscape, Portait, Square) { //Where colsole.log tested file goes{
+let stop = false;
+function Solution (landscape, Portait, Square)
   if ( width > height) return "  Landscape";
   if ( width < height) return "  Potrait";
   if (width == height) return "  Square";
