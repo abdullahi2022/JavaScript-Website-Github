@@ -1,4 +1,4 @@
-console.log("You made it to the template.js!");
+console.log("You made it to the Landscape or Portrait.js!");
 let stop = false;
 function Solution (landscape, Portait, Square)
   if ( width > height) return "  Landscape";
