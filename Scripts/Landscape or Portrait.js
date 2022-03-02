@@ -12,11 +12,11 @@ function solution (landscape, Portrait)
   //Odd Ternary, first option is usually true
   //
   /* Repeats the Ternary Operator
-  if ( Width > Height )
+  if ( width > height )
   {
     return "landscape";
   } else
-  if ( Width < Height )
+  if ( width < height )
     return "Portrait";
   }
   */
