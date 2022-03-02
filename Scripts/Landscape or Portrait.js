@@ -7,8 +7,7 @@ function solution (landscape, Portrait)
 {
   if ( width == height ) return "  Square";
   // Ternary Operator Example (single comparison), needs single line IF to limit choices
-  return ( width > height ) ? "Landscape"
-  return (width < height) "Portrait";
+  return ( width > height ) ? "Portrait" : "landscape";
   //Odd Ternary, first option is usually true
   //
   /* Repeats the Ternary Operator
@@ -35,7 +34,7 @@ function main()
     document.getElementById("answer").innerHTML = "Restart ... because I said so."
   } else
   {
-    document.getElementById("answer").innerHTML = "What did you say?  " + solution(firstNumber, secondNumber);
+    document.getElementById("answer").innerHTML = "What did you say?  " + solution(Landscape, Portrait);
   }//ENd stop=true
 }//End main()
 //
@@ -54,6 +53,6 @@ function testNaN (number)
     return "Type a Number";
   } else
   {
-    return "Good. It is a number."
+    return "Landscape or Portrait."
   }
 }//End testNaN
