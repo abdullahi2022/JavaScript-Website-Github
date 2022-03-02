@@ -7,17 +7,21 @@ function solution (landscape, Portrait)
 {
   if ( width == height ) return "  Square";
   // Ternary Operator Example (single comparison), needs single line IF to limit choices
-  return ( width > height ) "Portrait"; ( width < height ) "landscape";
+  return ( width > height ) ? "Landscape : Portrait";
   //Odd Ternary, first option is usually true
   //
   /* Repeats the Ternary Operator
   if ( width > height )
   {
-    return "landscape";
+    return "Landscape";
   } else
   if ( width < height )
+  {
     return "Portrait";
-  }
+  } else
+  if ( width = height )
+  {
+     return "Square"
   */
 }//ENd solution
 //
