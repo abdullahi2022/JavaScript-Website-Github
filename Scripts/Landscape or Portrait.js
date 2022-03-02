@@ -1,6 +1,12 @@
+console.log("You made it to the Landscape and Portrait.js!");
+//
+//global variables
 let stop = false;
-function solution (number1, number2) {
+//
+function solution (landscape, Portrait)
+{
   if ( width == height ) return "  Square";
+  // Ternary Operator Example (single comparison), needs single line IF to limit choices
   return ( width > height ) ? "Landscape"
   return (width < height) "Portrait";
   //Odd Ternary, first option is usually true
@@ -10,7 +16,7 @@ function solution (number1, number2) {
   {
     return "landscape";
   } else
-  if   if ( Width < Height )
+  if ( Width < Height )
     return "Portrait";
   }
   */
@@ -45,7 +51,7 @@ function testNaN (number)
   if ( isNaN(number) ) //Returns a Boolean
   {
     stop = true;
-    return "Type a  Number";
+    return "Type a Number";
   } else
   {
     return "Good. It is a number."
