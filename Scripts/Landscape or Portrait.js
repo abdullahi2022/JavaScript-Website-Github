@@ -1,7 +1,6 @@
 let stop = false;
 function solution (number1, number2) {
   if ( width == height ) return "  Square";
-  // Ternary Operator Example (single comparison), needs single line IF to limit choices
   return ( width > height ) ? "Landscape"
   return (width < height) "Portrait";
   //Odd Ternary, first option is usually true
@@ -46,7 +45,7 @@ function testNaN (number)
   if ( isNaN(number) ) //Returns a Boolean
   {
     stop = true;
-    return "Type a Real Number";
+    return "Type a  Number";
   } else
   {
     return "Good. It is a number."
