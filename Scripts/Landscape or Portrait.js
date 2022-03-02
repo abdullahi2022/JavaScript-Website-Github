@@ -1,9 +1,5 @@
-//
-//Global Variables
 let stop = false;
-//
-function solution (number1, number2)
-{
+function solution (number1, number2) {
   if ( width == height ) return "  Square";
   // Ternary Operator Example (single comparison), needs single line IF to limit choices
   return ( width > height ) ? "Landscape"
