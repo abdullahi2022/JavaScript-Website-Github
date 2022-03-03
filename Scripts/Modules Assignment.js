@@ -1,9 +1,12 @@
-console.log("You made it to the template.js!");
-
+console.log("You made it to the Modules Assignment.js!");
+//
+//Global Variables
 let stop = false; //Boolean for testNaN() validation function, see end of file
-
-function javascript () { //Where colsole.log tested file goes
-
+//
+function solution (Even, Odd)
+{
+if (Even means return 0: 4%2=0)
+  (Odd means return 1: 5%2=1)
 }
 //Main Function, necessary lines of code
 function main() {
