@@ -1,14 +1,13 @@
 console.log("You made it to the Landscape and Portrait.js!");
 //
-//global variables
+//Global Variables
 let stop = false;
 //
-function solution (landscape, portrait, square)
+function solution (width, height)
 {
   if ( width == height ) return "Square";
   // Ternary Operator Example (single comparison), needs single line IF to limit choices
-  return ( width > height ) ? "Landscape";
-  return (width < height ) ? "Portrait";
+  return ( width > height ) ? "Landscape": "Portrait";
   //Odd Ternary, first option is usually true
   //
   /* Repeats the Ternary Operator
