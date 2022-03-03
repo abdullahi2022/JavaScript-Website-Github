@@ -5,8 +5,16 @@ let stop = false; //Boolean for testNaN() validation function, see end of file
 //
 function solution (Even, Odd)
 {
-if (Even means return 0: 4%2=0)
-  (Odd means return 1: 5%2=1)
+const number = prompt("Enter a number: ");
+
+//check if the number is even
+if(number % 2 == 0) {
+    console.log("The number is even.");
+}
+
+// if the number is odd
+else {
+    console.log("The number is odd.");
 }
 //Main Function, necessary lines of code
 function main() {
