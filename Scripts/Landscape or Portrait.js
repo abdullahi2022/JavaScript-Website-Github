@@ -53,6 +53,6 @@ function testNaN (number)
     return "Type a Real Number";
   } else
   {
-    return "Landscape" or "Portrait".
+    return "Good. It is a number".
   }
 }//End testNaN
