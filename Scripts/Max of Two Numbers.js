@@ -1,31 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@abdullahi2022 
-MercersKitchen
-/
-Sandbox-JavaScript-github.io
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Sandbox-JavaScript-github.io/Scripts/Max of Two Numbers.js /
-@MercersKitchen
-MercersKitchen Update Max of Two Numbers.js
-Latest commit 7858e29 15 days ago
- History
- 1 contributor
-58 lines (58 sloc)  1.63 KB
-   
 console.log("You made it to the Max of Two Numbers.js!");
 //
 //Global Variables
@@ -84,16 +56,3 @@ function testNaN (number)
     return "Good. It is a number."
   }
 }//End testNaN
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
