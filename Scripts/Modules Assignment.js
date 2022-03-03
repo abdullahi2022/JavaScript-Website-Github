@@ -7,7 +7,7 @@ function solution (Even, Odd)
 {
 if ( number1%2=0 ) return "  Even";
 // Ternary Operator Example (single comparison), needs single line IF to limit choices
-return ( number1%2=0 ) ? "EVen" : "Odd";
+return ( number1 %2=0 ) ? "EVen" : "Odd";
 //Odd Ternary, first option is usually true
 //
 /* Repeats the Ternary Operator
