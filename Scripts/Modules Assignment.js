@@ -5,16 +5,22 @@ let stop = false; //Boolean for testNaN() validation function, see end of file
 //
 function solution (Even, Odd)
 {
-const number = prompt("Enter a number: ");
-
-//check if the number is even
-if(number % 2 == 0) {
-    console.log("The number is even.");
-}
-
-// if the number is odd
-else {
-    console.log("The number is odd.");
+if ( number1%2=0 ) return "  Even";
+// Ternary Operator Example (single comparison), needs single line IF to limit choices
+return ( number1%2=0 ) ? "EVen" : "Odd";
+//Odd Ternary, first option is usually true
+//
+/* Repeats the Ternary Operator
+  if ( number1 > number2 )
+  {
+    return "Even";
+  } else
+  {
+    return "odd";
+  }
+  */
+}//ENd solution
+//
 }
 //Main Function, necessary lines of code
 function main() {
