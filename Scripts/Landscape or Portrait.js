@@ -39,7 +39,7 @@ function main()
     document.getElementById("answer").innerHTML = "Restart ... because I said so."
   } else
   {
-    document.getElementById("answer").innerHTML = "What did you say?  " + solution(Landscape, Portrait);
+    document.getElementById("answer").innerHTML = "What did you say?  " + solution(firstNumber, secondNumber);
   }//ENd stop=true
 }//End main()
 //
@@ -55,9 +55,9 @@ function testNaN (number)
   if ( isNaN(number) ) //Returns a Boolean
   {
     stop = true;
-    return "Type a Number";
+    return "Type a Real Number";
   } else
   {
-    return "Landscape or Portrait."
+    return "Landscape" or "Portrait".
   }
 }//End testNaN
