@@ -15,13 +15,9 @@ function solution (width, height)
   {
     return "Landscape";
   } else
-  if ( width < height )
   {
     return "Portrait";
-  } else
-  if ( width = height )
-  {
-     return "Square"
+  }
   */
 }//ENd solution
 //
