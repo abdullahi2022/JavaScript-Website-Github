@@ -1,9 +1,26 @@
-console.log("You made it to the template.js!");
-
+console.log("You made it to the Modules Assignment.js!");
+//
+//Global Variables
 let stop = false; //Boolean for testNaN() validation function, see end of file
-
-function javascript () { //Where colsole.log tested file goes
-
+//
+function solution (Even, Odd)
+{
+if ( number1%2=0 ) return "  Even";
+// Ternary Operator Example (single comparison), needs single line IF to limit choices
+return ( number1 %2=0 ) ? "EVen" : "Odd";
+//Odd Ternary, first option is usually true
+//
+/* Repeats the Ternary Operator
+  if ( number1 > number2 )
+  {
+    return "Even";
+  } else
+  {
+    return "odd";
+  }
+  */
+}//ENd solution
+//
 }
 //Main Function, necessary lines of code
 function main() {
